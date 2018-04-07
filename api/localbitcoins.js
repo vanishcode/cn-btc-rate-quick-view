@@ -1,0 +1,1 @@
+module.exports = (action='sell',amount='1000') => `https://localbitcoins.com/instant-bitcoins/?action=${action}&country_code=CN&amount=${amount}&currency=CNY&place_country=CN&online_provider=ALL_ONLINE&find-offers=Search`

@@ -1,0 +1,21 @@
+{
+  "name": "cn-btc-rate",
+  "version": "0.1.0",
+  "description": "Fast to check the bitcoin's rate under CNY on localbitcoins.com and huobipro.com.",
+  "scripts": {
+    "cnbtc": "node ./bin/server.js"
+  },
+  "keywords": [
+    "bitcoin",
+    "cli",
+    "touch-the-fish"
+  ],
+  "author": "vanishcode",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "cheerio": "^1.0.0-rc.2",
+    "cli-table": "^0.3.1",
+    "koa": "^2.5.0"
+  }
+}
