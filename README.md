@@ -1,7 +1,7 @@
 # cn-btc-rate-quick-view
 在终端快速查看localbitcoins上的真实交易价格信息
 
-![](https://ws3.sinaimg.cn/large/006tKfTcly1fq4jniplgoj30kh0kjgpd.jpg)
+![using](https://ws2.sinaimg.cn/large/006tKfTcly1fq59a6zjjqj30jl0ln784.jpg)
 
 ### 使用
 
