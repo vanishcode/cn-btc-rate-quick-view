@@ -16,7 +16,7 @@ app.use(async ctx => {
 
         let html = await requestURL(local(action, mount))
         let data = await parseHTML(html)
-        ctx.body = 'Request of '+ color.yellow(action) + ' info in '+ color.blue('https://localbitcoins.com/:\n') + display(data) + appInfo[0] +appInfo[1] + '\n'
+        ctx.body = '\nRequest of ' + color.yellow(action) + ' info in ' + color.blue('https://localbitcoins.com/:\n') + display(data) + appInfo[0] + color.red(new Date().toString()) + appInfo[1] + '\n'
     } catch (error) {
         console.log(error.stack)
     }
